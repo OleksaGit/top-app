@@ -1,4 +1,5 @@
 import Document, {Html, Head, Main, NextScript, DocumentContext, DocumentInitialProps} from 'next/document';
+import React from "react";
 
 class MyDocument extends Document {
     static async getInitialProps(ctx: DocumentContext): Promise<DocumentInitialProps> {
@@ -8,11 +9,13 @@ class MyDocument extends Document {
 
     render(): JSX.Element {
         return (
-            <Html lang="en" >
-                <Head/>
+            <Html lang="en">
+                <Head>
+                    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+                </Head>
                 <body>
-                <Main/>
-                <NextScript/>
+                <Main />
+                <NextScript />
                 </body>
             </Html>
         );
