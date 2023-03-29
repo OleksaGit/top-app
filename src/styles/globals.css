@@ -19,8 +19,10 @@ a {
     --black: #3B434E;
     --grey-light: #EBEBEB;
     --white: white;
-    --primary: #7653FC;
-    --primary-hover: #6344df;
+    --primary: #03cbab;
+    /*--primary: #7653FC;*/
+    --primary-hover: rgba(3, 203, 171, 0.78);
+    /*--primary-hover: #6344df;*/
     --red: #FC836D;
     --green: #1DC37E;
     --green-light: #C8F8E4;
